@@ -18,7 +18,7 @@ class dragon:
 
     def __init__(self):
         self.image=load_image('dragon.png')
-        self.imagerect=self.image.get_rect(center=(1150,300))  #verify the center part
+        self.imagerect=self.image.get_rect(center=(1150,300)) 
 
     def update(self):
         if (self.imagerect.top<cactusrect.bottom):
